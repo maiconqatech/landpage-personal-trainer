@@ -457,6 +457,26 @@
   }
   .wa-float:hover .wa-tip, .wa-float:focus-visible .wa-tip{ opacity: 1; }
   @media (max-width: 520px){ .wa-tip{ display: none; } }
+
+  /* ===== Mobile: center buttons and card content ===== */
+  @media (max-width: 860px){
+    .hero-grid > div:first-child{ text-align: center; }
+    .hero .eyebrow{ justify-content: center; }
+    .hero-ctas{ justify-content: center; }
+    .hero-ctas .btn{ flex: 1 1 auto; width: 100%; max-width: 360px; }
+
+    .pillar,
+    .seg-card,
+    .step,
+    .testi-card{ text-align: center; }
+    .pillar .num{ display: block; }
+    .seg-card .icon{ margin-left: auto; margin-right: auto; }
+    .step .idx{ display: block; }
+  }
+
+  @media (max-width: 640px){
+    .nav{ justify-content: center; }
+  }
 </style>
 </head>
 <body>
